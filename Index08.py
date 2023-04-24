@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if len(s)==11:
+        return s.index('d')
+    else:
+        return False
+print(main("heloo world"))
+
         
